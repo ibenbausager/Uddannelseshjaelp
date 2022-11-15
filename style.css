@@ -1,5 +1,140 @@
+body, html {
+    margin: 0;
+  }
 
-.header {
-    background-color: #555050;
-    padding: 20px;
+  
+h1{
+    font-family: montserrat, merienda, Vast_shadow, Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: #353535;
+    text-align: center;
+    margin:5%;
 }
+
+h2{
+    font-family: montserrat, merienda, Vast_shadow, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #353535;
+    text-align: center;
+    margin:5%;
+}
+
+h3{
+    font-family: montserrat, merienda, Vast_shadow, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #353535;
+    padding: 8%;
+    padding-bottom: 0%;
+    margin:0%;
+}
+
+h4{
+    font-family: montserrat, merienda, Vast_shadow, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #353535;
+    padding: 8%;
+    padding-top: 0%;
+    margin:0%;
+}
+
+a{
+    font-family: montserrat, merienda, Vast_shadow, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #353535;
+
+}
+
+.header{
+    background-color: #ecefe9;
+    margin:0%;
+    height: 350px;
+    background-size: auto;
+    width:fit-content;
+    margin-bottom: 8%;
+}
+
+.top {
+    background-color: #768a50;
+    height:350px;
+    background-size: auto;
+    width: fit-content;
+    margin: 0%;
+
+}
+
+.liste{ /*knappen dokument-liste*/
+    background-color: #8a5076;
+    color: #353535;
+    border-radius: 8px;
+    padding:3%;
+    margin-left: 8%;
+
+}
+
+.center {
+    background-color: #ecefe9;
+    background-size: auto;
+    height:375px;
+    padding:5%;
+    width: fit-content;
+    margin: 0%;
+
+}
+
+.videocontainer{
+    background-color: #bcc4ab;
+    background-size: auto;
+    width: fit-content;
+    margin: 0%;
+    padding-top: 15%;
+
+}
+ 
+.videobtn{  /*som curtain*/
+    margin-left: 63%;
+}
+
+.video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-bottom: 8%;
+    margin-top: -110px;
+    padding-bottom: 13%;
+    z-index: 3;
+  }
+
+.block{
+    width: 38%;
+    height: 150px;
+    margin-left: 58%;
+    margin-top: -8%;
+    background-color: #8a5076;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+/*
+
+@media screen and (min-width: 750px){ /* media queries til tablet*/
+  /*  * {
+      padding: 0px;
+    } 
+} 
+@media screen and (min-width: 1400px){ /*media queries til desktop*/
+  /*  * {
+        padding: 0px;
+    } 
+}
+
+*/
