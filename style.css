@@ -5,11 +5,12 @@ body, html {
   
 h1{
     font-family: montserrat, merienda, Vast_shadow, Arial, Helvetica, sans-serif;
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 600;
     color: #353535;
     text-align: center;
     margin:5%;
+    margin-top: 8%;
 }
 
 h2{
@@ -43,9 +44,10 @@ h4{
 
 a{
     font-family: montserrat, merienda, Vast_shadow, Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     color: #353535;
+    text-decoration: none;
 
 }
 
@@ -60,7 +62,7 @@ a{
 
 .top {
     background-color: #768a50;
-    height:350px;
+    height:300px;
     background-size: auto;
     width: fit-content;
     margin: 0%;
@@ -73,16 +75,6 @@ a{
     border-radius: 8px;
     padding:3%;
     margin-left: 8%;
-
-}
-
-.center {
-    background-color: #ecefe9;
-    background-size: auto;
-    height:375px;
-    padding:5%;
-    width: fit-content;
-    margin: 0%;
 
 }
 
@@ -108,9 +100,10 @@ a{
     margin-top: -110px;
     padding-bottom: 13%;
     z-index: 3;
+    border-radius: 5px;
   }
 
-.block{
+.block-video{
     width: 38%;
     height: 150px;
     margin-left: 58%;
@@ -119,9 +112,43 @@ a{
     border-radius: 8px;
 }
 
+.center {
+    background-color: #ecefe9;
+    background-size: auto;
+    height:375px;
+    padding:5%;
+    width: auto;
+    margin: 0%;
+    margin-bottom: 8%;
 
+}
 
+.block-center{
+    width: 88%;
+    height: 250px;
+    margin-left: 3%;
+    margin-top: 0%;
+    background-color: #8a5076;
+    border-radius: 8px;
+}
 
+.søg{
+    background-color: #768a50;
+    color: #353535;
+    border-radius: 8px;
+    padding:3%;
+    margin-left: 35%;
+    
+}
+
+.bottom {
+    background-color: #768a50;
+    background-size: auto;
+    width: auto;
+    height:375px;
+    margin: 0%;
+
+}
 
 
 /*
