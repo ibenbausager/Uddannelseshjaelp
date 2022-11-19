@@ -20,11 +20,12 @@ h2{
     color: #353535;
     text-align: center;
     margin:5%;
+    margin-top: 10%;
 }
 
 h3{
     font-family: montserrat, merienda, Vast_shadow, Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     color: #353535;
     padding: 8%;
@@ -33,8 +34,45 @@ h3{
 }
 
 h4{
+    position: absolute;
+    z-index: 4;
     font-family: montserrat, merienda, Vast_shadow, Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #353535;
+    margin-left:6%;
+    margin-top: -82%;
+    
+}
+
+h5{
+    font-family: montserrat, merienda, Vast_shadow, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #353535;
+    margin-left: 9%;
+    padding-top: 6%;
+}
+
+
+.logo{ /**/
+    margin-top: 4%;
+    margin-left: 4%;
+}
+
+a{
+    font-family: montserrat, merienda, Vast_shadow, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #353535;
+    text-decoration: none;
+    padding:5%;
+    
+}
+
+p{
+    font-family: montserrat, merienda, Vast_shadow, Arial, Helvetica, sans-serif;
+    font-size: 12px;
     font-weight: 300;
     color: #353535;
     padding: 8%;
@@ -42,43 +80,81 @@ h4{
     margin:0%;
 }
 
-a{
-    font-family: montserrat, merienda, Vast_shadow, Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    color: #353535;
-    text-decoration: none;
 
-}
-
-.header{
+.header{ /*øverste del af siden indeholdene logo,link og tekst*/
     background-color: #ecefe9;
     margin:0%;
-    height: 350px;
+    height: 340px;
     background-size: auto;
-    width:fit-content;
+    width:auto;
     margin-bottom: 8%;
 }
 
-.top {
+.om{ /*"om os" knappen*/
+    font-family: montserrat, merienda, Vast_shadow, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
     background-color: #768a50;
-    height:300px;
-    background-size: auto;
-    width: fit-content;
-    margin: 0%;
-
+    color: #353535;
+    border-radius: 5px;
+    padding:2%;
+    margin-left: 9%;
 }
 
-.liste{ /*knappen dokument-liste*/
+.om:hover {
+    opacity: 0.7;
+}
+
+.fa { /*styling ikoner*/
+    padding: 20px;
+    font-size: 30px;
+    width: 13px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 5px;
+  }
+  
+.fa:hover {
+    opacity: 0.7;
+}
+  
+.fa-linkedin { /*linkedin ikon*/
+    background: #007bb5;
+    color: white;
+    padding:3%;
+    
+}
+
+.fa-facebook { /*facebook ikon*/ 
+    background: #3B5998;
+    color: white;
+    padding:3%;
+}
+
+
+
+.top { /*tekst del med link til PDF fil*/
+    background-color: #768a50;
+    height:280px;
+    background-size: auto;
+    width: auto;
+    margin: 0%;
+}
+
+.text a{
+    margin-left: 3%;
+    padding:15px;
+}
+.liste{ /*knappen "dokument-liste" PDF fil*/
     background-color: #8a5076;
     color: #353535;
     border-radius: 8px;
     padding:3%;
     margin-left: 8%;
-
 }
 
-.videocontainer{
+.videocontainer{ /*sektion med video*/
     background-color: #bcc4ab;
     background-size: auto;
     width: fit-content;
@@ -86,24 +162,12 @@ a{
     padding-top: 15%;
 
 }
- 
-.videobtn{  /*som curtain*/
-    margin-left: 63%;
+
+.videobtn{ /*knap til afspilning af video*/
+    margin-left: 58%;
 }
 
-.video{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    margin-bottom: 8%;
-    margin-top: -110px;
-    padding-bottom: 13%;
-    z-index: 3;
-    border-radius: 5px;
-  }
-
-.block-video{
+.block-video{ /*kassen bag videoen*/
     width: 38%;
     height: 150px;
     margin-left: 58%;
@@ -112,43 +176,120 @@ a{
     border-radius: 8px;
 }
 
-.center {
+.video{ /*placeholder til video*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: auto;
+    margin-bottom: 8%;
+    margin-top: -110px;
+    padding-bottom: 13%;
+    z-index: 3;
+    border-radius: 8px;
+  }
+
+.center { /**/
+    display: block;
     background-color: #ecefe9;
     background-size: auto;
-    height:375px;
+    height:460px;
     padding:5%;
+    padding-top: 10%;
     width: auto;
     margin: 0%;
     margin-bottom: 8%;
-
 }
 
-.block-center{
-    width: 88%;
-    height: 250px;
-    margin-left: 3%;
-    margin-top: 0%;
+.block-center{ /**/
+    position: relative;
+    z-index: 1;
+    width: 93%;
+    height: 350px;
+    margin-right: 5%;
+    margin-left: 2%;
+    margin-top: -2%;
     background-color: #8a5076;
     border-radius: 8px;
 }
 
-.søg{
+.container { /**/
+    position: relative;
+    margin-top:-330px;
+    margin-left: 8%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+}
+
+summary { /**/
+    font-family: montserrat, merienda, Vast_shadow, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 18px;
+    width: 320px;
+    border-bottom: #353535 solid 1px;
+    background-color: #bcc4ab;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+details > p { /**/
+    font-family: montserrat, merienda, Vast_shadow, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height:1.5em;
+    background-color: #bcc4ab;
+    padding: 18px;
+    width: 320px;
+    margin: 0;
+}
+  
+.søg{ /**/
     background-color: #768a50;
     color: #353535;
     border-radius: 8px;
     padding:3%;
-    margin-left: 35%;
-    
+    margin-left: 45%;
+    margin-top: 10%;
 }
 
-.bottom {
+.bottom { /**/
     background-color: #768a50;
     background-size: auto;
     width: auto;
-    height:375px;
+    height:485px;
     margin: 0%;
-
 }
+
+.block-kontakt{ /**/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -3%;
+    padding-top:5%;
+    width: 80%;
+    height: 360px;
+    background-color: #ecefe9;
+    border-radius: 8px;
+}
+
+.block-kontakt p{
+    font-size: 14px;
+}
+
+.footer{ /**/
+    width: auto;
+    background-color: #353535;
+    font-family: montserrat, merienda, Vast_shadow, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    color: #ecefe9;
+    text-align: center;
+    padding: 3%;
+}
+
+
 
 
 /*
