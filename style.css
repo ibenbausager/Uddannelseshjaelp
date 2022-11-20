@@ -5,7 +5,7 @@ body, html {
   
 h1{
     font-family: montserrat, merienda, Vast_shadow, Arial, Helvetica, sans-serif;
-    font-size: 28px;
+    font-size: 32px;
     font-weight: 600;
     color: #353535;
     text-align: center;
@@ -37,20 +37,18 @@ h4{
     position: absolute;
     z-index: 4;
     font-family: montserrat, merienda, Vast_shadow, Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     color: #353535;
     margin-left:6%;
-    margin-top: -82%;
-    
 }
 
 h5{
     font-family: montserrat, merienda, Vast_shadow, Arial, Helvetica, sans-serif;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 700;
     color: #353535;
-    margin-left: 9%;
+    margin-left: 10%;
     padding-top: 6%;
 }
 
@@ -146,7 +144,7 @@ p{
     margin-left: 3%;
     padding:15px;
 }
-.liste{ /*knappen "dokument-liste" PDF fil*/
+.liste { /*knappen "dokument-liste" PDF fil*/
     background-color: #8a5076;
     color: #353535;
     border-radius: 8px;
@@ -187,9 +185,9 @@ p{
     padding-bottom: 13%;
     z-index: 3;
     border-radius: 8px;
-  }
+}
 
-.center { /**/
+.center { /*center sektionen */
     display: block;
     background-color: #ecefe9;
     background-size: auto;
@@ -201,7 +199,7 @@ p{
     margin-bottom: 8%;
 }
 
-.block-center{ /**/
+.block-center{ /*kassen bag "detailskasserne */
     position: relative;
     z-index: 1;
     width: 93%;
@@ -213,7 +211,16 @@ p{
     border-radius: 8px;
 }
 
-.container { /**/
+.center p { /*overskriften til center sektionen*/
+    position: absolute;
+    z-index: 4;
+    font-family: montserrat, merienda, Vast_shadow, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #353535;
+}
+
+.container { 
     position: relative;
     margin-top:-330px;
     margin-left: 8%;
@@ -223,7 +230,11 @@ p{
     z-index: 3;
 }
 
-summary { /**/
+.container p{
+    font-size: 12px;
+}
+
+summary { 
     font-family: montserrat, merienda, Vast_shadow, Arial, Helvetica, sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -235,18 +246,17 @@ summary { /**/
     cursor: pointer;
 }
   
-details > p { /**/
+details  p{ 
     font-family: montserrat, merienda, Vast_shadow, Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 6px;
     font-weight: 400;
     line-height:1.5em;
     background-color: #bcc4ab;
-    padding: 18px;
-    width: 320px;
+    width: 300px;
     margin: 0;
 }
   
-.søg{ /**/
+.søg{ /*knappen "søg uddannelseshjælp*/
     background-color: #768a50;
     color: #353535;
     border-radius: 8px;
@@ -263,7 +273,7 @@ details > p { /**/
     margin: 0%;
 }
 
-.block-kontakt{ /**/
+.block-kontakt{ /*sektion nederst på siden*/
     margin-left: auto;
     margin-right: auto;
     margin-top: -3%;
@@ -278,7 +288,7 @@ details > p { /**/
     font-size: 14px;
 }
 
-.footer{ /**/
+.footer{ 
     width: auto;
     background-color: #353535;
     font-family: montserrat, merienda, Vast_shadow, Arial, Helvetica, sans-serif;
@@ -290,15 +300,134 @@ details > p { /**/
 }
 
 
-
-
-/*
-
 @media screen and (min-width: 750px){ /* media queries til tablet*/
-  /*  * {
-      padding: 0px;
-    } 
+* {
+    padding: 0px;
 } 
+.header{ /*øverste del af siden indeholdene logo,link og tekst*/
+    height: 370px;
+    margin-bottom: 4%;
+}
+
+h2{
+    margin:10%;
+    margin-top: 8%;
+}
+
+h5{
+    margin-left: 10%;
+    padding-top: 6%;
+    padding-bottom: 3%;
+}
+
+.om{ /*"om os" knappen*/
+    border-radius: 5px;
+    padding:2%;
+    margin-left: 42%;
+}
+
+.fa-linkedin { /*linkedin ikon*/
+    padding:2%;
+    
+}
+
+.fa-facebook { /*facebook ikon*/ 
+    padding:2%;
+}
+
+.top { /*tekst del med link til PDF fil*/
+    float: left;
+    width: 50%;
+    height: 400px;
+}
+.text a{
+    padding:20px;
+    
+}
+.liste{ /*knappen "dokument-liste" PDF fil*/
+    padding:2%;
+    margin-left: 8%;
+}
+
+.videocontainer{ /*sektion med video*/
+    width: 50%;
+    float: right;
+    height: 285px;
+}
+
+.videobtn{ /*knap til afspilning af video*/
+    margin-left: 38%;
+}
+
+.block-video{ /*kassen bag videoen*/
+    width: 60%;
+    height: 220px;
+    margin-left: 28%;
+    margin-top: -20%;
+}
+
+.video{ /*placeholder til video*/
+    width: 100%;
+    height: auto;
+    margin-left:-20%;
+    margin-top: -45%;
+    z-index: 3;
+    border-radius: 8px;
+}
+.center { /**/
+    height:850px;
+    margin-bottom: 4%;
+}
+
+.block-center{ /**/
+    width: 55%;
+    height: 318px;
+    margin-right: 5%;
+    margin-left: 2%;
+    margin-top: 55%;
+}
+
+.container { /**/
+    position: relative;
+    margin-top:-230px;
+    margin-left: 18%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+}
+
+  
+details  p{ 
+    width: 265px;
+    padding-top:2%;
+}
+
+    
+.søg{ /**/
+    width:24%;
+    padding:2%;
+    margin-left: 74%;
+    margin-top: -7%;
+}
+
+.bottom { /**/
+    height:450px;
+}
+
+.block-kontakt{ /**/
+    height: 260px;
+    width: 80%;
+}
+
+.block-kontakt p{
+    font-size: 16px;
+    display: inline-flex;
+}
+
+
+} 
+/*
 @media screen and (min-width: 1400px){ /*media queries til desktop*/
   /*  * {
         padding: 0px;
