@@ -5,7 +5,7 @@ body, html {
   
 h1{
     font-family: montserrat, merienda, Vast_shadow, Arial, Helvetica, sans-serif;
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 600;
     color: #353535;
     text-align: center;
@@ -21,6 +21,7 @@ h2{
     text-align: center;
     margin:5%;
     margin-top: 10%;
+    padding-bottom: 10%;
 }
 
 h3{
@@ -82,8 +83,7 @@ p{
 
 .header{ /*øverste del af siden indeholdene logo,link og tekst*/
     background-color: #ecefe9;
-    margin:0%;
-    height: 340px;
+    height:fit-content;
     background-size: auto;
     width:auto;
     margin-bottom: 8%;
@@ -97,7 +97,7 @@ p{
     color: #353535;
     border-radius: 5px;
     padding:2%;
-    margin-left: 9%;
+    margin-left: 6%;
 }
 
 .om:hover {
@@ -121,14 +121,14 @@ p{
 .fa-linkedin { /*linkedin ikon*/
     background: #007bb5;
     color: white;
-    padding:3%;
+    padding:2%;
     
 }
 
 .fa-facebook { /*facebook ikon*/ 
     background: #3B5998;
     color: white;
-    padding:3%;
+    padding:2%;
 }
 
 
@@ -147,8 +147,9 @@ p{
     left:10%;
     background-color: #8a5076;
     color: #353535;
-    border-radius: 8px;
+    border-radius: 5px;
     padding:3%;
+    box-shadow: 2px 2px 10px #353535;
     
 }
 
@@ -173,7 +174,8 @@ p{
     margin-left: 58%;
     margin-top: -8%;
     background-color: #8a5076;
-    border-radius: 8px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #353535;
 }
 
 .video{ /*placeholder til video*/
@@ -186,7 +188,7 @@ p{
     margin-top: -110px;
     padding-bottom: 13%;
     z-index: 3;
-    border-radius: 8px;
+    border-radius: 5px;
 }
 
 .center { /*center sektionen */
@@ -204,13 +206,14 @@ p{
 .block-center{ /*kassen bag "detailskasserne */
     position: relative;
     z-index: 1;
-    width: 93%;
+    width: 90%;
     height: 350px;
     margin-right: 5%;
     margin-left: 2%;
     margin-top: -6%;
     background-color: #8a5076;
-    border-radius: 8px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #353535;
 }
 
 .center p { /*overskriften til center sektionen*/
@@ -239,10 +242,10 @@ p{
 
 summary { 
     font-family: montserrat, merienda, Vast_shadow, Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
     padding: 18px;
-    width: 320px;
+    width: auto;
     border-bottom: #353535 solid 1px;
     background-color: #bcc4ab;
     border-radius: 4px;
@@ -262,10 +265,12 @@ details  p{
 .søg{ /*knappen "søg uddannelseshjælp*/
     background-color: #768a50;
     color: #353535;
-    border-radius: 8px;
-    padding:3%;
+    border-radius: 5px;
+    padding: 2% 0;
     margin-left: 45%;
     margin-top: 10%;
+    box-shadow: 2px 2px 10px #353535;
+
 }
 
 .bottom { /**/
@@ -284,7 +289,9 @@ details  p{
     width: 80%;
     height: 360px;
     background-color: #ecefe9;
-    border-radius: 8px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #353535;
+
 }
 
 .block-kontakt p{
@@ -326,7 +333,7 @@ h4{
 
 h5{
     margin-left: 10%;
-    padding-top: 6%;
+    padding-top: 8%;
     padding-bottom: 3%;
 }
 
@@ -364,8 +371,8 @@ h5{
 }
 
 .videobtn { /*knap til afspilning af video*/
-    margin-left: 48%;
-    margin-bottom:60%;
+    margin-left: 17%;
+    margin-top: -11%;
 }
 
 .block-video{ /*kassen bag videoen*/
@@ -381,7 +388,7 @@ h5{
     margin-left:-20%;
     margin-top: -45%;
     z-index: 3;
-    border-radius: 8px;
+    border-radius: 5px;
 }
 .center { 
     height:850px;
@@ -389,7 +396,7 @@ h5{
 }
 
 .block-center{ 
-    width: 55%;
+    width: 50%;
     height: 318px;
     margin-right: 5%;
     margin-left: 2%;
@@ -398,7 +405,7 @@ h5{
 
 .container { 
     position: relative;
-    margin-top:-230px;
+    margin-top:-260px;
     margin-left: 15%;
     width: auto;
     display: flex;
@@ -412,10 +419,14 @@ details  p{
     padding-top:2%;
 }
 
+summary{
+font-size: 14px;
+width: 320px;
+}
     
 .søg{ /**/
     width:28%;
-    padding:2%;
+    padding:2% 0;
     margin-left: 70%;
     margin-top: -7%;
 }
@@ -436,30 +447,41 @@ details  p{
 
 
 } 
-@media screen and (min-width: 1024px){ /*media queries til desktop*/
+@media screen and (min-width: 1400px){ /*media queries til desktop*/
     * {
         padding: 0px;
     } 
 
 .header{ /*øverste del af siden indeholdene logo,link og tekst*/
-    height: 450px;
+    height: fit-content;
     margin-bottom: 4%;
     margin-top: 4%;
     width:90%;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 5px;
+}
+
+h1{
+    font-size: 32px;
 }
 
 h2{
-    margin:10%;
+    font-size: 20px;
+    margin:12%;
     margin-top: 8%;
+    padding-bottom: 12%;
+}
+
+h3{
+    font-size: 18px;
 }
 
 h4{
-    margin-left:5%;
-    margin-right: 60%;
-    margin-top: 5%;
-
+    font-size: 16px;
+    margin-left:10%;
+    margin-right:42%;
+    margin-top: 12%;
 }
 
 h5{
@@ -486,71 +508,76 @@ h5{
 .top { /*tekst del med link til PDF fil*/
     position: absolute;
     float: left;
-    width: 45%;
-    height: 400px;
-    margin-top: -7%;
+    width: 40%;
+    height: 478px;
+    margin-top: -13%;
     border-radius: 5px;
-    margin-left: 8%;
+    margin-left: 14%;
 }
 
 .liste{ /*knappen "dokument-liste" PDF fil*/
     padding:2%;
-    margin-left: -5%;
-    margin-top: 10%;
+    margin-left: 0%;
+    margin-top: 15%;
 }
 
 .videocontainer{ /*sektion med video*/
     width: 40%;
-    height: 174px;
-    margin-right: 8%;
+    height: 190px;
+    margin-top: -8%;
+    margin-right: 14%;
     border-radius: 5px;
 }
 
 .videobtn { /*knap til afspilning af video*/
-    margin-left: 48%;
-    margin-bottom:60%;
+    margin-left: 13%;
+    padding: 0%;
+    
 }
 
 .block-video{ /*kassen bag videoen*/
     width: 50%;
     height: 220px;
-    margin-left: 38%;
-    margin-top: -20%;
+    margin-left: 30%;
+    margin-top: -34%;
 }
 
 .video{ /*placeholder til video*/
     position: absolute;
-    width: 40%;
+    width: 35%;
     height: auto;
-    margin-left:-20%;
-    margin-top: -25%;
+    margin-left:-8%;
+    margin-top: -11%;
     z-index: 3;
-    border-radius: 8px;
+    border-radius: 5px;
 }
 .center { 
     margin-top: 40%;
-    height:500px;
+    height:fit-content;
     margin-bottom: 4%;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
 }
 
 .block-center{ 
-    width: 55%;
+    width: 35%;
     height: 318px;
     margin-right: 5%;
-    margin-left: 2%;
-    margin-top: 55%;
+    margin-left: 10%;
+    margin-top: -10%;
 }
 
 .container { 
-    position: relative;
-    margin-top:-230px;
-    margin-left: 15%;
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    z-index: 3;
+    margin-top:-260px;
+    margin-left: 25%;
 }
 
+summary{
+    font-size: 14px;
+    width: 380px;
+    }
     
 details  p{ 
     width: 265px;
@@ -559,18 +586,24 @@ details  p{
 
     
 .søg{ /**/
-    width:28%;
-    padding:2%;
-    margin-left: 70%;
-    margin-top: -7%;
+    width:18%;
+    padding: 1% 0%;
+    margin-left: 75%;
+    margin-top: -6%;
 }
 
 .bottom { /**/
-    height:480px;
+    height:fit-content;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4%;
+    padding-bottom: 5%;
+    border-radius: 5px;
 }
 
 .block-kontakt{ /**/
-    height: 320px;
+    height: fit-content;
     width: 90%;
 }
 
