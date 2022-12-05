@@ -55,7 +55,7 @@ h5{
 }
 
 
-.logo{ /**/
+.logo{ 
     margin-top: 4%;
     margin-left: 4%;
 }
@@ -226,7 +226,7 @@ p{
     padding:5%;
 }
 
-.container { 
+.container {  /*placeholder til summary*/
     position: relative;
     margin-top:-330px;
     margin-left: 8%;
@@ -240,7 +240,7 @@ p{
     font-size: 12px;
 }
 
-summary { 
+summary { /*boks med vis og skjul funktion*/
     font-family: montserrat, merienda, Vast_shadow, Arial, Helvetica, sans-serif;
     font-size: 12px;
     font-weight: 400;
@@ -273,7 +273,7 @@ details  p{
 
 }
 
-.bottom { /**/
+.bottom { /*sektion nederst på siden*/
     background-color: #768a50;
     background-size: auto;
     width: auto;
@@ -281,7 +281,7 @@ details  p{
     margin: 0%;
 }
 
-.block-kontakt{ /*sektion nederst på siden*/
+.block-kontakt{ /*information sektion*/
     margin-left: auto;
     margin-right: auto;
     margin-top: -3%;
@@ -314,7 +314,7 @@ details  p{
 * {
     padding: 0px;
 } 
-.header{ /*øverste del af siden indeholdene logo,link og tekst*/
+.header{ 
     height: 370px;
     margin-bottom: 4%;
 }
@@ -332,63 +332,58 @@ h4{
 }
 
 h5{
-    margin-left: 10%;
     padding-top: 8%;
     padding-bottom: 3%;
 }
 
-.om{ /*"om os" knappen*/
+.om{ 
     border-radius: 5px;
-    padding:2%;
     margin-left: 42%;
 }
 
-.fa-linkedin { /*linkedin ikon*/
+.fa-linkedin { 
     padding:2%;
     
 }
 
-.fa-facebook { /*facebook ikon*/ 
+.fa-facebook { 
     padding:2%;
 }
 
-.top { /*tekst del med link til PDF fil*/
+.top { 
     float: left;
     width: 50%;
     height: 380px;
 }
 
-.liste{ /*knappen "dokument-liste" PDF fil*/
+.liste{ 
     padding:2%;
     margin-left: -5%;
     margin-top: 10%;
 }
 
-.videocontainer{ /*sektion med video*/
+.videocontainer{ 
     width: 50%;
     float: right;
     height: 265px;
 }
 
-.videobtn { /*knap til afspilning af video*/
+.videobtn { 
     margin-left: 17%;
     margin-top: -11%;
 }
 
-.block-video{ /*kassen bag videoen*/
+.block-video{ 
     width: 50%;
     height: 220px;
     margin-left: 38%;
     margin-top: -20%;
 }
 
-.video{ /*placeholder til video*/
+.video{ 
     width: 100%;
-    height: auto;
     margin-left:-20%;
     margin-top: -45%;
-    z-index: 3;
-    border-radius: 5px;
 }
 .center { 
     height:850px;
@@ -404,13 +399,8 @@ h5{
 }
 
 .container { 
-    position: relative;
     margin-top:-260px;
     margin-left: 15%;
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    z-index: 3;
 }
 
   
@@ -431,11 +421,11 @@ width: 320px;
     margin-top: -7%;
 }
 
-.bottom { /**/
+.bottom { 
     height:480px;
 }
 
-.block-kontakt{ /**/
+.block-kontakt{ 
     height: 320px;
     width: 90%;
 }
@@ -451,9 +441,8 @@ width: 320px;
         padding: 0px;
     } 
 
-.header{ /*øverste del af siden indeholdene logo,link og tekst*/
+.header{ 
     height: fit-content;
-    margin-bottom: 4%;
     margin-top: 4%;
     width:90%;
     margin-left: auto;
@@ -468,7 +457,6 @@ h1{
 h2{
     font-size: 20px;
     margin:12%;
-    margin-top: 8%;
     padding-bottom: 12%;
 }
 
@@ -484,26 +472,25 @@ h4{
 }
 
 h5{
-    margin-left: 10%;
     padding-top: 6%;
     padding-bottom: 3%;
 }
 
-.om{ /*"om os" knappen*/
+.om{ 
     border-radius: 5px;
     padding:1%;
     margin-left: 57%;
 }
 
-.fa-linkedin { /*linkedin ikon*/
+.fa-linkedin { 
     padding:1%;
 }
 
-.fa-facebook { /*facebook ikon*/ 
+.fa-facebook { 
     padding:1%;
 }
 
-.top { /*tekst del med link til PDF fil*/
+.top { 
     position: absolute;
     width: 45%;
     height: 374px;
@@ -512,13 +499,12 @@ h5{
     margin-left: 10%;
 }
 
-.liste{ /*knappen "dokument-liste" PDF fil*/
-    padding:2%;
+.liste{ 
     margin-left: 0%;
     margin-top: 15%;
 }
 
-.videocontainer{ /*sektion med video*/
+.videocontainer{ 
     width: 40%;
     height: 160px;
     margin-top: -8%;
@@ -526,28 +512,25 @@ h5{
     border-radius: 5px;
 }
 
-.videobtn { /*knap til afspilning af video*/
+.videobtn { 
     margin-left: 19%;
     margin-top: -9%;
     padding: 0%;
     
 }
 
-.block-video{ /*kassen bag videoen*/
+.block-video{ 
     width: 40%;
     height: 190px;
     margin-left: 43%;
     margin-top: -30%;
 }
 
-.video{ /*placeholder til video*/
+.video{ 
     position: absolute;
     width: 35%;
-    height: auto;
     margin-left:-8%;
     margin-top: -15%;
-    z-index: 3;
-    border-radius: 5px;
 }
 
 .center { 
@@ -562,7 +545,6 @@ h5{
 
 .block-center{ 
     width: 45%;
-    height: 318px;
     margin-right: 5%;
     margin-left: 10%;
     margin-top: -10%;
@@ -584,14 +566,14 @@ details  p{
 }
 
     
-.søg{ /**/
+.søg{ 
     width:25%;
     padding: 1% 0%;
     margin-left: 77%;
     margin-top: -4.5%;
 }
 
-.bottom { /**/
+.bottom { 
     height:fit-content;
     width: 90%;
     margin-left: auto;
@@ -601,9 +583,8 @@ details  p{
     border-radius: 5px;
 }
 
-.block-kontakt{ /**/
+.block-kontakt{ 
     height: fit-content;
-    width: 90%;
 }
 
 .block-kontakt p{
@@ -622,47 +603,39 @@ h4{
     margin-top: 12%;
 }
 
-.top { /*tekst del med link til PDF fil*/
+.top { 
     width: 40%;
     height: 478px;
     margin-top: -13%;
     margin-left: 14%;
 }
 
-.liste{ /*knappen "dokument-liste" PDF fil*/
-    padding:2%;
+.liste{ 
     margin-left: 0%;
     margin-top: 15%;
 }
 
-.videocontainer{ /*sektion med video*/
+.videocontainer{ 
     width: 40%;
     height: 190px;
-    margin-top: -8%;
-    margin-right: 14%;
-    border-radius: 5px;
 }
 
-.videobtn { /*knap til afspilning af video*/
+.videobtn { 
     margin-left: 17%;
     margin-top: -10%;
 }
 
-.block-video{ /*kassen bag videoen*/
-    width: 40%;
+.block-video{ 
     height: 255px;
     margin-left: 40%;
     margin-top: -30%;
 }
 
-.video{ /*placeholder til video*/
+.video{ 
     position: absolute;
     width: 35%;
-    height: auto;
     margin-left:-8%;
     margin-top: -15%;
-    z-index: 3;
-    border-radius: 5px;
 }
 
 .center { 
@@ -671,7 +644,6 @@ h4{
 
 .block-center{ 
     width: 35%;
-    height: 318px;
     margin-right: 5%;
     margin-left: 10%;
     margin-top: -10%;
@@ -692,7 +664,7 @@ details  p{
 }
 
     
-.søg{ /**/
+.søg{ 
     width:18%;
     padding: 1% 0%;
     margin-left: 75%;
@@ -706,33 +678,61 @@ details  p{
         padding: 0px;
     } 
 
-.top { /*tekst del med link til PDF fil*/
-    height: 574px;
+h1{
+    font-size: 40px;
 }
 
-.liste{ /*knappen "dokument-liste" PDF fil*/
-    padding:2%;
+h2{
+    font-size: 32px;
+    margin:18%;
+    margin-top: -10px;
+}
+
+h3{
+    font-size: 26px;
+}
+
+h4{
+    font-size: 22px;
+    margin-left:10%;
+    margin-right:42%;
+    margin-top: 8%;
+}
+
+h5{
+    font-size: 24px;
+    margin-left: 10%;
+}
+
+.top { 
+    height: 574px;
+    margin-top: -17.5%;
+}
+
+.liste{ 
     margin-left: 0%;
     margin-top: 15%;
 }
 
-.videocontainer{ /*sektion med video*/
+.videocontainer{ 
     height: 190px;
+    margin-top: -12.5%;
 }
 
-.videobtn { /*knap til afspilning af video*/
-    margin-left: 15%;
-    margin-top: -10.5%;
+.videobtn { 
+    font-size: 20px;
+    margin-left: 14.5%;
+    margin-top: -11.5%;
 }
 
-.block-video{ /*kassen bag videoen*/
+.block-video{ 
     width:38%;
-    height: 270px;
+    height: 280px;
     margin-left: 34%;
-    margin-top: -30%;
+    margin-top: -33%;
 }
 
-.video{ /*placeholder til video*/
+.video{ 
     width: 31%;
     margin-top: -12%;
 }
@@ -749,8 +749,12 @@ details  p{
     width: 421px;
 }
 
-.søg{ /**/
+.søg{ 
     width:15%;
+}
+
+.block-kontakt p{
+    font-size: 20px;
 }
 
 }
