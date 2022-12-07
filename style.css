@@ -240,7 +240,7 @@ p{
     font-size: 12px;
 }
 
-summary { /*boks med vis og skjul funktion*/
+summary { /*boks med vis og skjul funktion kilde:https://www.w3schools.com/tags/tag_summary.asp*/
     font-family: montserrat, merienda, Vast_shadow, Arial, Helvetica, sans-serif;
     font-size: 12px;
     font-weight: 400;
@@ -252,7 +252,7 @@ summary { /*boks med vis og skjul funktion*/
     cursor: pointer;
 }
   
-details  p{ 
+details  p{ /*kilde: https://www.w3schools.com/tags/tag_details.asp*/
     font-family: montserrat, merienda, Vast_shadow, Arial, Helvetica, sans-serif;
     font-size: 6px;
     font-weight: 400;
