@@ -256,7 +256,7 @@ details  p{ /*kilde: https://www.w3schools.com/tags/tag_details.asp*/
     font-family: montserrat, merienda, Vast_shadow, Arial, Helvetica, sans-serif;
     font-size: 6px;
     font-weight: 400;
-    line-height:1.5em;
+    line-height:2em;
     background-color: #bcc4ab;
     width: auto;
     margin: 0;
@@ -277,7 +277,7 @@ details  p{ /*kilde: https://www.w3schools.com/tags/tag_details.asp*/
     background-color: #768a50;
     background-size: auto;
     width: auto;
-    height:485px;
+    height:550px;
     margin: 0%;
 }
 
@@ -287,7 +287,7 @@ details  p{ /*kilde: https://www.w3schools.com/tags/tag_details.asp*/
     margin-top: -3%;
     padding-top:5%;
     width: 80%;
-    height: 360px;
+    height: 450px;
     background-color: #ecefe9;
     border-radius: 5px;
     box-shadow: 2px 2px 10px #353535;
@@ -297,6 +297,32 @@ details  p{ /*kilde: https://www.w3schools.com/tags/tag_details.asp*/
 .block-kontakt p{
     font-size: 14px;
 }
+
+li{
+    color: #353535;
+    padding: 2%;
+    padding-top: 0%;
+    margin:0%;
+    display: inline-flex;
+}
+
+li.ugedag{
+    font-family: montserrat, merienda, Vast_shadow, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #353535;
+    text-align: left;
+    padding-left: 7%;
+}
+
+li.tid{
+    font-family: montserrat, merienda, Vast_shadow, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
+    padding-left: 4%;
+}
+
 
 .footer{ 
     width: auto;
@@ -414,7 +440,7 @@ font-size: 14px;
 width: 320px;
 }
     
-.søg{ /**/
+.søg{ 
     width:28%;
     padding:2% 0;
     margin-left: 70%;
@@ -422,18 +448,35 @@ width: 320px;
 }
 
 .bottom { 
-    height:480px;
+    height:400px;
 }
 
 .block-kontakt{ 
-    height: 320px;
+    height: 220px;
     width: 90%;
 }
 
 .block-kontakt p{
     font-size: 16px;
     display: inline-flex;
+    padding-left: 5%;
+    padding-right: 5%;
 }
+
+li{
+    padding: 2%;
+    padding-top: 0%;
+    margin:0%;
+}
+
+li.ugedag{
+    padding-left: 5%;
+}
+
+li.tid{
+    padding-left: 2%;
+}
+
 
 } 
 @media screen and (min-width: 1024px){ /*media queries til desktop*/
@@ -590,6 +633,12 @@ details  p{
 .block-kontakt p{
     font-size: 16px;
     display: inline-flex;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+li.ugedag{
+    padding-left: 6%;
 }
 
 
@@ -669,6 +718,10 @@ details  p{
     padding: 1% 0%;
     margin-left: 75%;
     margin-top: -3.5%;
+}
+
+.block-kontakt p{
+    padding-right: 8%;
 }
     
 }
@@ -755,6 +808,14 @@ details  p{
 
 .block-kontakt p{
     font-size: 20px;
+    padding-right: 10%;
 }
 
+li.ugedag{
+    font-size: 20px;
+}
+
+li.tid{
+    font-size: 20px;
+}
 }
