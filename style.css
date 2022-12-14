@@ -277,7 +277,7 @@ details  p{ /*kilde: https://www.w3schools.com/tags/tag_details.asp*/
     background-color: #768a50;
     background-size: auto;
     width: auto;
-    height:550px;
+    height:570px;
     margin: 0%;
 }
 
@@ -287,7 +287,7 @@ details  p{ /*kilde: https://www.w3schools.com/tags/tag_details.asp*/
     margin-top: -3%;
     padding-top:5%;
     width: 80%;
-    height: 450px;
+    height: 470px;
     background-color: #ecefe9;
     border-radius: 5px;
     box-shadow: 2px 2px 10px #353535;
@@ -298,29 +298,40 @@ details  p{ /*kilde: https://www.w3schools.com/tags/tag_details.asp*/
     font-size: 14px;
 }
 
-li{
+ul{
     color: #353535;
     padding: 2%;
     padding-top: 0%;
     margin:0%;
-    display: inline-flex;
+    list-style-type: none;
+    line-height: 0%;
+    display: inline-block;
 }
 
-li.ugedag{
+li {
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+  }
+
+ul.ugedag{
     font-family: montserrat, merienda, Vast_shadow, Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
     color: #353535;
     text-align: left;
     padding-left: 7%;
 }
 
-li.tid{
+ul.tid{
     font-family: montserrat, merienda, Vast_shadow, Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
     text-align: left;
     padding-left: 4%;
+    
+    
+
 }
 
 
@@ -463,17 +474,11 @@ width: 320px;
     padding-right: 5%;
 }
 
-li{
-    padding: 2%;
-    padding-top: 0%;
-    margin:0%;
+ul.ugedag{
+    padding-left: 3%;
 }
 
-li.ugedag{
-    padding-left: 5%;
-}
-
-li.tid{
+ul.tid{
     padding-left: 2%;
 }
 
@@ -637,8 +642,12 @@ details  p{
     padding-right: 6%;
 }
 
-li.ugedag{
-    padding-left: 6%;
+ul.ugedag{
+    padding-left: 3%;
+}
+
+ul.tid{
+    padding-left: 2%;
 }
 
 
@@ -722,6 +731,15 @@ details  p{
 
 .block-kontakt p{
     padding-right: 8%;
+    font-size: 20px;
+}
+
+ul.ugedag{
+    font-size: 20px;
+}
+
+ul.tid{
+    font-size: 20px;
 }
     
 }
@@ -811,11 +829,5 @@ details  p{
     padding-right: 10%;
 }
 
-li.ugedag{
-    font-size: 20px;
-}
 
-li.tid{
-    font-size: 20px;
-}
 }
